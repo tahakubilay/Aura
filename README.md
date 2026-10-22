@@ -4,16 +4,14 @@
 
 ### Autonomous Universal Resonant Assistant
 
-<a href="https://github.com/tahakubilay/Aura">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=900&center=true&vCenter=true&width=860&lines=Physical+AI%2C+designed+to+feel+alive.;Magnetic+levitation+%2B+wireless+power+%2B+directional+interaction;A+12+cm+transparent+AI+core+concept" alt="Animated project overview" />
-</a>
+<img src="./assets/hero.svg" alt="Animated project header" />
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Taha%20Kubilay-181717?style=for-the-badge&logo=github)](https://github.com/tahakubilay)
 [![Repository](https://img.shields.io/badge/Repository-A.U.R.A.-0A66C2?style=for-the-badge&logo=github)](https://github.com/tahakubilay/Aura)
-[![Physical AI](https://img.shields.io/badge/Physical%20AI-Prototype-7C3AED?style=for-the-badge)](#-overview)
-[![Status](https://img.shields.io/badge/Status-Concept%20%2F%20Prototype-F59E0B?style=for-the-badge)](#-project-status)
+![Physical AI](https://img.shields.io/badge/Physical%20AI-Prototype-7C3AED?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Concept%20%2F%20Prototype-F59E0B?style=for-the-badge)
 
 <br/>
 
