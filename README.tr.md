@@ -9,67 +9,32 @@
 <p><a href="./README.md">English</a> · <a href="./README.de.md">Deutsch</a> · <a href="./README.tr.md"><strong>Türkçe</strong></a></p>
 
 <p>
-<a href="https://github.com/tahakubilay"><img src="https://img.shields.io/badge/Portfolio-Taha%20Kubilay-181717?style=for-the-badge&logo=github" alt="Portfolio" /></a>
-<a href="https://github.com/tahakubilay/Aura"><img src="https://img.shields.io/badge/Source-A.U.R.A.-0A66C2?style=for-the-badge&logo=github" alt="Repository" /></a>
-<img src="https://img.shields.io/badge/Physical%20AI-Prototype-7C3AED?style=for-the-badge" alt="Physical AI prototype" />
-<img src="https://img.shields.io/badge/Status-Concept%20%2F%20Prototype-F59E0B?style=for-the-badge" alt="Durum" />
+  <a href="https://github.com/tahakubilay"><img src="https://img.shields.io/badge/Taha%20Kubilay-GitHub-181717?style=for-the-badge&logo=github" alt="Taha Kubilay GitHub" /></a>
+  <a href="https://github.com/tahakubilay/Aura"><img src="https://img.shields.io/badge/Repository-A.U.R.A.-0A66C2?style=for-the-badge&logo=github" alt="Repository" /></a>
+  <img src="https://img.shields.io/badge/Physical%20AI-Experimental%20Prototype-7C3AED?style=for-the-badge" alt="Deneysel fiziksel AI prototipi" />
 </p>
 
 </div>
 
 ---
 
-## ✨ Kısaca
+## Genel Bakış
 
-| | |
-|---|---|
-| 🤖 **Konsept** | İfade sahibi fiziksel AI asistanı |
-| 🔮 **Form** | Yaklaşık 12 cm çapında şeffaf küresel çekirdek |
-| 🧲 **Levitasyon** | Özel taban üzerinde manyetik olarak havada asılı |
-| ⚡ **Güç** | Temassız kablosuz güç aktarımı |
-| 🎙️ **Algılama** | Çoklu mikrofonla yönsel ses algılama |
-| 🔄 **Etkileşim** | Konuşmacıya doğru 360° yönelim |
-| 👀 **İfade** | Animasyonlu göz ifadeleri gösteren dairesel ekran |
+A.U.R.A. — **Autonomous Universal Resonant Assistant** — konuşma zekâsına görünür, mekânsal ve ifade sahibi bir fiziksel varlık kazandırmayı amaçlayan deneysel bir fiziksel AI asistanıdır.
 
-> [!NOTE]
-> A.U.R.A. deneysel bir **donanım + yazılım prototip konseptidir**. Elektronik detaylar, BOM, kontrol mimarisi ve üretim notları prototip tasarımı finalize edildikten sonra belgelenecektir.
+Konsept; embedded systems, yönsel ses algılama, manyetik levitasyon, kablosuz güç aktarımı, hareket kontrolü ve ifade odaklı dairesel arayüzü kompakt şeffaf küresel bir form içinde birleştirir.
 
-## 🔎 Genel Bakış
+## Fiziksel Konsept
 
-A.U.R.A. — **Autonomous Universal Resonant Assistant** — klasik bir akıllı hoparlörden çok fiziksel bir varlık hissi vermesi amaçlanan kompakt bir fiziksel AI çekirdeği konseptidir.
+- Yaklaşık 12 cm çapında şeffaf küresel çekirdek
+- Özel taban üzerinde manyetik levitasyon
+- Temassız kablosuz güç aktarımı
+- Çoklu mikrofonla yönsel ses algılama
+- Aktif konuşmacıya doğru 360° yönelim
+- İfade odaklı göz animasyonları için dairesel ekran
+- Fiziksel hareket ve görsel geri bildirimle bağlantılı AI katmanı
 
-Fikir birden fazla disiplini bir araya getirir:
-
-- AI etkileşimi
-- Embedded systems
-- Yönsel ses algılama
-- Manyetik levitasyon
-- Kablosuz güç aktarımı
-- Hareket kontrolü
-- İfade odaklı görsel geri bildirim
-- Endüstriyel / etkileşim tasarımı
-
-Ortaya çıkması hedeflenen ürün; havada süzülüyormuş gibi görünen, konuşan kişiye dönen ve animasyonlu göz ifadeleriyle görsel tepki veren şeffaf küresel bir asistandır.
-
-## 💡 Konsept
-
-```text
-Ses
-  ↓
-Yönsel Ses Algılama
-  ↓
-Konuşmacı Açısı Tahmini
-  ↓
-Fiziksel Yönelim
-  ↓
-AI Etkileşimi
-  ↓
-İfade Odaklı Görsel Tepki
-```
-
-A.U.R.A., AI etkileşimini yalnızca ekran tabanlı olmaktan çıkarıp **mekânsal, fiziksel ve ifade sahibi** hale getirmeyi amaçlar.
-
-## 🏗️ Yüksek Seviye Sistem Akışı
+## Etkileşim Akışı
 
 ```mermaid
 flowchart LR
@@ -79,31 +44,16 @@ flowchart LR
     USER --> AI[AI Etkileşim Katmanı]
     AI --> DISPLAY[İfade Odaklı Dairesel Ekran]
     BASE[Manyetik Taban] --> LEV[Levitasyon]
-    BASE --> WPT[Kablosuz Güç Aktarımı]
+    BASE --> WPT[Kablosuz Güç]
     WPT --> CORE[A.U.R.A. Çekirdeği]
     CORE --> MIC
     CORE --> DISPLAY
     CORE --> MOTION
 ```
 
-## ⚙️ Temel Tasarım Bileşenleri
+## Yönsel Ses
 
-| Sistem | Konsept |
-|---|---|
-| 🧲 **Manyetik Levitasyon** | Şeffaf çekirdek fiziksel destek olmadan mat taban üzerinde süzülür |
-| ⚡ **Kablosuz Güç** | Taban ile küre arasında indüktif güç aktarımı |
-| 🎙️ **Mikrofon Dizisi** | Kürenin çevresine yerleştirilen çoklu mikrofonlar |
-| 🧭 **Direction of Arrival** | Ses varış zamanlarındaki farklarla konuşmacı yönünü tahmin etmek |
-| 🔄 **360° Yönelim** | Asistanı aktif konuşmacıya döndürmek |
-| 👀 **İfade Odaklı Ekran** | Göz animasyonları ve görsel durum geri bildirimi |
-| 🤖 **AI Katmanı** | Konuşma zekâsını fiziksel etkileşim sistemiyle bağlamak |
-| 🧱 **Ürün Tasarımı** | Bench prototipi gibi değil, bitmiş ürün gibi görünen kompakt yapı |
-
-## 🎙️ Yönsel Etkileşim
-
-A.U.R.A.'nın temel fikirlerinden biri asistanın sesin **nereden** geldiğini anlayabilmesidir.
-
-Yüksek seviyede sistem, çoklu mikrofonlar ve ses sinyallerinin varış zamanlarındaki farkları kullanarak cihaz çevresindeki azimut açısını tahmin eder.
+A.U.R.A., cihaz çevresinde bir sesin hangi yönden geldiğini tahmin etmek için çoklu mikrofon yaklaşımını kullanır. Mikrofonlar arasındaki göreli varış zamanı farkları konuşmacı açısını hesaplamak ve fiziksel yönelimi kontrol etmek için kullanılabilir.
 
 ```mermaid
 flowchart TD
@@ -116,42 +66,26 @@ flowchart TD
     M3 --> T
     M4 --> T
     T --> A[Tahmini 0°–360° Yön]
-    A --> R[Konuşmacıya Dön]
+    A --> R[Konuşmacıya Yönel]
 ```
 
-Kesin sinyal işleme implementasyonu, kalibrasyon yöntemi ve motor kontrol stratejisi final prototip üzerinden belgelenecektir.
+## Temel Sistemler
 
-## ⚡ Temassız Güç & Levitasyon
+| Sistem | Rol |
+|---|---|
+| **Manyetik Levitasyon** | Küresel çekirdeği görünür mekanik destek olmadan havada tutmak |
+| **Kablosuz Güç** | Enerjiyi tabandan küreye fiziksel kablo olmadan aktarmak |
+| **Mikrofon Dizisi** | Cihaz çevresinden yönsel ses bilgisi toplamak |
+| **Yön Tahmini** | Varış zamanı farklarından konuşmacı açısını hesaplamak |
+| **Yönelim Kontrolü** | Asistanı aktif konuşmacıya çevirmek |
+| **İfade Odaklı Ekran** | Dikkat ve sistem durumunu göz animasyonlarıyla ifade etmek |
+| **AI Katmanı** | Konuşma zekâsını fiziksel etkileşimle birleştirmek |
 
-Fiziksel konsept aynı anda iki fikre dayanır:
+## Mühendislik Odağı
 
-**Levitasyon** — şeffaf çekirdek tabanın üzerinde havada asılı kalır.
+A.U.R.A., normalde ayrı geliştirilen yazılım ve donanım problemlerini tek projede birleştirir:
 
-**Kablosuz güç** — çekirdek, taban ile küre arasında fiziksel kablo olmadan enerji alır.
-
-Bu sayede kendi kendine yeten, süzülen bir AI çekirdeği illüzyonu korunur.
-
-## 👀 İfade Odaklı Arayüz
-
-Klasik dikdörtgen ekran yerine, A.U.R.A. ifade sahibi gözlerin merkezde olduğu **dairesel bir görsel arayüz** ile tasarlanır.
-
-Olası durumlar:
-
-- Dinliyor
-- Düşünüyor
-- Konuşuyor
-- Meraklı / dikkatli
-- Beklemede
-- Bildirim / uyarı
-- Hata / bağlantı durumu
-
-Amaç yalnızca dekorasyon değil; ifade, sistem durumunu sezgisel biçimde anlatan bir UX katmanıdır.
-
-## 🧠 Mühendislik Odağı
-
-A.U.R.A. normalde ayrı projelerde yaşayan yazılım ve donanım problemlerini bir araya getirir:
-
-- Embedded kontrol
+- Embedded systems
 - Ses sinyal işleme
 - Human-computer interaction
 - Sensor fusion
@@ -162,61 +96,16 @@ A.U.R.A. normalde ayrı projelerde yaşayan yazılım ve donanım problemlerini 
 - Gerçek zamanlı state koordinasyonu
 - Ürün odaklı endüstriyel tasarım
 
-## 🖼️ Prototip Görselleri
+## Projenin Niteliği
 
-Konsept render'ları, mekanik görünümler, iç bileşen yerleşimi ve prototip fotoğrafları daha sonra eklenecek.
-
-| Dış Konsept | İç Yerleşim | Etkileşim |
-|---|---|---|
-| 🔮 Yakında | ⚙️ Yakında | 👀 Yakında |
-
-## 📐 Planlanan Dokümantasyon
-
-- Tam sistem mimarisi
-- Donanım blok diyagramı
-- Malzeme listesi
-- Mekanik ölçüler
-- Levitasyon sistemi
-- Kablosuz güç mimarisi
-- Mikrofon dizisi geometrisi
-- DoA / TDOA işleme
-- Hareket kontrol sistemi
-- Ekran / animasyon alt sistemi
-- AI iletişim katmanı
-- Güç bütçesi
-- Montaj süreci
-- Kalibrasyon
-- Firmware / yazılım kurulumu
-
-## 🛣️ Proje Durumu
-
-- [x] Ürün konsepti
-- [x] Etkileşim konsepti
-- [x] Yüksek seviye sistem mimarisi
-- [x] Yönsel ses konsepti
-- [ ] Final donanım platformunu seç
-- [ ] Final bileşenleri seç
-- [ ] Mekanik tasarım
-- [ ] Elektronik prototip
-- [ ] Levitasyon + WPT entegrasyonu
-- [ ] Mikrofon dizisi kalibrasyonu
-- [ ] Hareket kontrol prototipi
-- [ ] İfade odaklı UI implementasyonu
-- [ ] Tam AI entegrasyonu
-- [ ] Prototip görselleri ve demo videosu
-
-## 💡 Bu Proje Neden Önemli?
-
-A.U.R.A., AI'ı tarayıcı penceresi veya telefon ekranının ötesine taşımaya yönelik bir denemedir.
-
-Konuşma zekâsının **fiziksel varlık, mekânsal farkındalık, hareket ve ifade** kazandığında nasıl bir etkileşim doğuracağını araştırır.
-
-`Physical AI` · `Embedded Systems` · `IoT` · `Audio Processing` · `Human-Computer Interaction` · `Hardware Prototyping`
+A.U.R.A. deneysel bir prototip konseptidir. Repository, donanımı tamamlanmış ticari ürün gibi sunmak yerine sistem mimarisini ve etkileşim tasarımını açıklar.
 
 ---
 
 <div align="center">
 
 ### Geliştiren: [Taha Kubilay](https://github.com/tahakubilay)
+
+`Physical AI` · `Embedded Systems` · `IoT` · `Audio Processing` · `Human-Computer Interaction`
 
 </div>
