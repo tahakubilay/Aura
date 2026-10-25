@@ -9,67 +9,32 @@
 <p><a href="./README.md">English</a> · <a href="./README.de.md"><strong>Deutsch</strong></a> · <a href="./README.tr.md">Türkçe</a></p>
 
 <p>
-<a href="https://github.com/tahakubilay"><img src="https://img.shields.io/badge/Portfolio-Taha%20Kubilay-181717?style=for-the-badge&logo=github" alt="Portfolio" /></a>
-<a href="https://github.com/tahakubilay/Aura"><img src="https://img.shields.io/badge/Source-A.U.R.A.-0A66C2?style=for-the-badge&logo=github" alt="Repository" /></a>
-<img src="https://img.shields.io/badge/Physical%20AI-Prototype-7C3AED?style=for-the-badge" alt="Physical AI prototype" />
-<img src="https://img.shields.io/badge/Status-Concept%20%2F%20Prototype-F59E0B?style=for-the-badge" alt="Status" />
+  <a href="https://github.com/tahakubilay"><img src="https://img.shields.io/badge/Taha%20Kubilay-GitHub-181717?style=for-the-badge&logo=github" alt="Taha Kubilay auf GitHub" /></a>
+  <a href="https://github.com/tahakubilay/Aura"><img src="https://img.shields.io/badge/Repository-A.U.R.A.-0A66C2?style=for-the-badge&logo=github" alt="Repository" /></a>
+  <img src="https://img.shields.io/badge/Physical%20AI-Experimental%20Prototype-7C3AED?style=for-the-badge" alt="Experimenteller Physical-AI-Prototyp" />
 </p>
 
 </div>
 
 ---
 
-## ✨ Auf einen Blick
+## Überblick
 
-| | |
-|---|---|
-| 🤖 **Konzept** | Physischer KI-Assistent mit ausdrucksstarker Präsenz |
-| 🔮 **Form** | Transparenter kugelförmiger Kern, ca. 12 cm Durchmesser |
-| 🧲 **Levitation** | Magnetisch über einer speziellen Basis schwebend |
-| ⚡ **Energie** | Kontaktlose drahtlose Energieübertragung |
-| 🎙️ **Wahrnehmung** | Richtungsabhängige Audioerfassung mit mehreren Mikrofonen |
-| 🔄 **Interaktion** | 360°-Ausrichtung zum Sprecher |
-| 👀 **Ausdruck** | Rundes Display mit animierten Augen |
+A.U.R.A. — **Autonomous Universal Resonant Assistant** — ist ein experimenteller physischer KI-Assistent, der konversationeller Intelligenz eine sichtbare, räumliche und ausdrucksstarke Präsenz geben soll.
 
-> [!NOTE]
-> A.U.R.A. ist ein experimentelles **Hardware- und Software-Prototypkonzept**. Detaillierte Elektronik, BOM, Steuerungsarchitektur und Fertigungsnotizen werden nach Finalisierung des Prototypdesigns dokumentiert.
+Das Konzept verbindet Embedded Systems, richtungsabhängige Audioerfassung, magnetische Levitation, drahtlose Energieübertragung, Bewegungssteuerung und eine ausdrucksstarke runde Oberfläche in einer kompakten transparenten Kugelform.
 
-## 🔎 Überblick
+## Physisches Konzept
 
-A.U.R.A. — **Autonomous Universal Resonant Assistant** — ist ein Konzept für einen kompakten physischen KI-Kern, der eher wie eine Präsenz als wie ein klassischer Smart Speaker wirken soll.
+- Transparenter kugelförmiger Kern mit etwa 12 cm Durchmesser
+- Magnetische Levitation über einer speziellen Basis
+- Kontaktlose drahtlose Energieübertragung
+- Richtungsabhängige Audioerfassung mit mehreren Mikrofonen
+- 360°-Ausrichtung zum aktiven Sprecher
+- Rundes Display für ausdrucksstarke Augenanimationen
+- KI-Interaktionsschicht verbunden mit Bewegung und visuellem Feedback
 
-Das Konzept kombiniert mehrere Disziplinen:
-
-- KI-Interaktion
-- Embedded Systems
-- Richtungsabhängige Audioerfassung
-- Magnetische Levitation
-- Drahtlose Energieübertragung
-- Bewegungssteuerung
-- Ausdrucksstarkes visuelles Feedback
-- Industrie- und Interaktionsdesign
-
-Das Ziel ist ein transparenter kugelförmiger Assistent, der scheinbar schwebt, sich zur sprechenden Person ausrichtet und über animierte Augen visuell reagiert.
-
-## 💡 Das Konzept
-
-```text
-Stimme
-  ↓
-Richtungsabhängige Audioerfassung
-  ↓
-Schätzung des Sprecherwinkels
-  ↓
-Physische Ausrichtung
-  ↓
-KI-Interaktion
-  ↓
-Ausdrucksstarke visuelle Reaktion
-```
-
-A.U.R.A. soll KI-Interaktion **räumlich, physisch und ausdrucksstark** machen statt rein bildschirmbasiert.
-
-## 🏗️ High-Level-Systemfluss
+## Interaktionsablauf
 
 ```mermaid
 flowchart LR
@@ -86,24 +51,9 @@ flowchart LR
     CORE --> MOTION
 ```
 
-## ⚙️ Kernelemente des Designs
+## Richtungsabhängiges Audio
 
-| System | Konzept |
-|---|---|
-| 🧲 **Magnetische Levitation** | Transparenter Kern schwebt ohne sichtbare mechanische Stütze |
-| ⚡ **Wireless Power** | Induktive Energieübertragung von der Basis zum schwebenden Kern |
-| 🎙️ **Mikrofonarray** | Mehrere Mikrofone rund um die Kugel |
-| 🧭 **Direction of Arrival** | Sprecherichtung aus relativen Ankunftszeiten bestimmen |
-| 🔄 **360°-Ausrichtung** | Den Assistenten zum aktiven Sprecher drehen |
-| 👀 **Ausdrucksstarkes Display** | Rundes Display für Augenanimationen und Zustandsfeedback |
-| 🤖 **KI-Schicht** | Konversationsintelligenz mit physischer Interaktion verbinden |
-| 🧱 **Produktdesign** | Kompakter, sauberer Prototyp statt Laboraufbau |
-
-## 🎙️ Richtungsabhängige Interaktion
-
-Eine der Kernideen ist, dass A.U.R.A. versteht, **woher** eine Stimme kommt.
-
-Auf hoher Ebene werden mehrere Mikrofone und Laufzeitunterschiede der Audiosignale genutzt, um einen Winkel rund um das Gerät zu bestimmen.
+A.U.R.A. nutzt ein Multi-Mikrofon-Konzept, um die Richtung einer Stimme rund um das Gerät zu bestimmen. Relative Laufzeitunterschiede zwischen den Mikrofonen können zur Schätzung des Sprecherwinkels und zur Steuerung der physischen Ausrichtung verwendet werden.
 
 ```mermaid
 flowchart TD
@@ -116,40 +66,26 @@ flowchart TD
     M3 --> T
     M4 --> T
     T --> A[Geschätzte Richtung 0°–360°]
-    A --> R[Zum Sprecher drehen]
+    A --> R[Zum Sprecher ausrichten]
 ```
 
-Die konkrete Signalverarbeitung, Kalibrierung und Motorsteuerung wird aus dem finalisierten Prototyp dokumentiert.
+## Kernsysteme
 
-## ⚡ Kontaktlose Energie & Levitation
+| System | Rolle |
+|---|---|
+| **Magnetische Levitation** | Den kugelförmigen Kern ohne sichtbare mechanische Stütze schweben lassen |
+| **Wireless Power** | Energie kontaktlos von der Basis zur Kugel übertragen |
+| **Mikrofonarray** | Richtungsinformationen rund um das Gerät erfassen |
+| **Richtungsschätzung** | Sprecherwinkel aus Laufzeitunterschieden bestimmen |
+| **Ausrichtungssteuerung** | Den Assistenten zum aktiven Sprecher drehen |
+| **Ausdrucksstarkes Display** | Aufmerksamkeit und Systemzustand durch Augenanimationen vermitteln |
+| **KI-Schicht** | Konversationelle Intelligenz mit physischer Interaktion verbinden |
 
-Das physische Konzept verbindet zwei Ideen gleichzeitig:
+## Engineering-Fokus
 
-**Levitation** — der transparente Kern bleibt über der Basis schwebend.
+A.U.R.A. verbindet Software- und Hardwarethemen, die üblicherweise getrennt entwickelt werden:
 
-**Drahtlose Energie** — der Kern erhält Energie ohne sichtbares Kabel zwischen Basis und Kugel.
-
-So bleibt die visuelle Illusion eines eigenständigen schwebenden KI-Kerns erhalten.
-
-## 👀 Ausdrucksstarke Oberfläche
-
-Anstelle eines rechteckigen Displays ist ein **rundes visuelles Interface** mit ausdrucksstarken Augen vorgesehen.
-
-Mögliche Zustände:
-
-- Zuhören
-- Nachdenken
-- Sprechen
-- Neugierig / aufmerksam
-- Idle
-- Benachrichtigung / Alarm
-- Fehler / Verbindungszustand
-
-## 🧠 Engineering-Fokus
-
-A.U.R.A. verbindet Software- und Hardwareprobleme, die meist getrennt auftreten:
-
-- Embedded Control
+- Embedded Systems
 - Audiosignalverarbeitung
 - Human-Computer Interaction
 - Sensor Fusion
@@ -160,61 +96,16 @@ A.U.R.A. verbindet Software- und Hardwareprobleme, die meist getrennt auftreten:
 - Echtzeit-State-Koordination
 - Produktorientiertes Industriedesign
 
-## 🖼️ Prototyp-Visuals
+## Projektcharakter
 
-Konzept-Renderings, mechanische Ansichten, internes Komponentenlayout und Prototypfotos werden später ergänzt.
-
-| Außenansicht | Internes Layout | Interaktion |
-|---|---|---|
-| 🔮 Demnächst | ⚙️ Demnächst | 👀 Demnächst |
-
-## 📐 Geplante Dokumentation
-
-- Vollständige Systemarchitektur
-- Hardware-Blockdiagramm
-- Bill of Materials
-- Mechanische Abmessungen
-- Levitation
-- Wireless-Power-Architektur
-- Geometrie des Mikrofonarrays
-- DoA-/TDOA-Verarbeitung
-- Bewegungssteuerung
-- Display-/Animationssubsystem
-- KI-Kommunikationsschicht
-- Power Budget
-- Montageprozess
-- Kalibrierung
-- Firmware-/Software-Setup
-
-## 🛣️ Projektstatus
-
-- [x] Produktkonzept
-- [x] Interaktionskonzept
-- [x] High-Level-Systemarchitektur
-- [x] Richtungsabhängiges Audiokonzept
-- [ ] Finale Hardwareplattform wählen
-- [ ] Finale Komponenten wählen
-- [ ] Mechanisches Design
-- [ ] Elektronikprototyp
-- [ ] Levitation + WPT integrieren
-- [ ] Mikrofonarray kalibrieren
-- [ ] Bewegungssteuerung prototypisieren
-- [ ] Expressive UI implementieren
-- [ ] Vollständige KI-Integration
-- [ ] Prototypvisuals und Demo-Video
-
-## 💡 Warum dieses Projekt wichtig ist
-
-A.U.R.A. versucht, KI aus dem Browserfenster und vom Smartphonebildschirm herauszubringen.
-
-Es untersucht, was passiert, wenn konversationelle Intelligenz **physische Präsenz, räumliches Bewusstsein, Bewegung und Ausdruck** erhält.
-
-`Physical AI` · `Embedded Systems` · `IoT` · `Audio Processing` · `Human-Computer Interaction` · `Hardware Prototyping`
+A.U.R.A. ist ein experimentelles Prototypkonzept. Das Repository beschreibt Systemarchitektur und Interaktionsdesign, ohne die Hardware als fertiges kommerzielles Produkt darzustellen.
 
 ---
 
 <div align="center">
 
 ### Entwickelt von [Taha Kubilay](https://github.com/tahakubilay)
+
+`Physical AI` · `Embedded Systems` · `IoT` · `Audio Processing` · `Human-Computer Interaction`
 
 </div>
