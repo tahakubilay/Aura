@@ -4,7 +4,7 @@
 
 ### Autonomous Universal Resonant Assistant
 
-<img src="./assets/hero.svg" alt="Animated project header" />
+<img src="./assets/hero.svg" alt="A.U.R.A. project visual identity" />
 
 <p><a href="./README.md"><strong>English</strong></a> · <a href="./README.de.md">Deutsch</a> · <a href="./README.tr.md">Türkçe</a></p>
 
